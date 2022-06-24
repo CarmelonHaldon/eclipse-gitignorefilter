@@ -1,4 +1,4 @@
-package es.carmelonhaldon.eclipse.gitignoredfilter;
+package es.personal.eclipse.gitignorefilter;
 
 import java.io.IOException;
 
@@ -6,7 +6,7 @@ import org.eclipse.core.resources.IResource;
 import org.eclipse.jface.viewers.Viewer;
 import org.eclipse.jface.viewers.ViewerFilter;
 
-public class GitignoredFilter extends ViewerFilter {
+public class GitignoreFilter extends ViewerFilter {
 
 	public boolean select(Viewer arg0, Object arg1, Object element) {
 

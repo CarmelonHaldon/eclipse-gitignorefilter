@@ -57,11 +57,11 @@
    <extension
          point="org.eclipse.jdt.ui.javaElementFilters">
       <filter
-            description="gitignoredfilter-description"
+            description="gitignorefilter-description"
             enabled="true"
-            id="es.carmelonhaldon.eclipse.gitignoredfilter.javaElementFilters"
-            name="__gitignoredfilter"
-            class="es.carmelonhaldon.eclipse.gitignoredfilter.GitignoredFilter"
+            id="es.personal.eclipse.gitignorefilter.javaElementFilters"
+            name="**gitignorefilter"
+            class="es.personal.eclipse.gitignorefilter.GitignoreFilter"
             targetId="org.eclipse.jdt.ui.PackageExplorer"></filter>
    </extension>
    
@@ -69,10 +69,10 @@
          point="org.eclipse.ui.navigator.navigatorContent">
 		<commonFilter
         activeByDefault="true"
-        class="es.carmelonhaldon.eclipse.gitignoredfilter.GitignoredFilter"
-        description="gitignoredfilter-description"
-        id="es.carmelonhaldon.eclipse.gitignoredfilter.navigatorContent"
-        name="__gitignoredfilter">                   			
+        class="es.personal.eclipse.gitignorefilter.GitignoreFilter"
+        description="gitignorefilter-description"
+        id="es.personal.eclipse.gitignorefilter.navigatorContent"
+        name="**gitignorefilter">                   			
   		</commonFilter>
 	</extension>
 
@@ -80,7 +80,7 @@
          point="org.eclipse.ui.navigator.viewer">
     	<viewerContentBinding viewerId="org.eclipse.ui.navigator.ProjectExplorer">
     		<includes>
-            	<contentExtension pattern="es.carmelonhaldon.eclipse.gitignoredfilter.*" />
+            	<contentExtension pattern="es.personal.eclipse.gitignorefilter.*" />
 	        </includes>
       	</viewerContentBinding>
 	</extension>

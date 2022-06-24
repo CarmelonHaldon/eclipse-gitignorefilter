@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: __gitignoredfilter
-Bundle-SymbolicName: es.carmelonhaldon.eclipse.gitignoredfilter;singleton:=true
+Bundle-Name: **gitignorefilter
+Bundle-SymbolicName: es.personal.eclipse.gitignorefilter;singleton:=true
 Bundle-Version: 1.0.0.qualifier
-Bundle-Activator: es.carmelonhaldon.eclipse.gitignoredfilter.Activator
+Bundle-Activator: es.personal.eclipse.gitignorefilter.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  org.eclipse.core.resources,
@@ -25,4 +25,4 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.core.variables;bundle-version="3.4.400"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ActivationPolicy: lazy
-Export-Package: es.carmelonhaldon.eclipse.gitignoredfilter
+Export-Package: es.personal.eclipse.gitignorefilter

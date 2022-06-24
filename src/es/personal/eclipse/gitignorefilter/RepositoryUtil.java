@@ -10,7 +10,7 @@
  * Contributors:
  *    Mathias Kinzler (SAP AG) - initial implementation
  *******************************************************************************/
-package es.carmelonhaldon.eclipse.gitignoredfilter;
+package es.personal.eclipse.gitignorefilter;
 
 import java.io.IOException;
 
